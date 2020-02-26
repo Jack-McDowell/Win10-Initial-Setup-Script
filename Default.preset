@@ -9,10 +9,10 @@
 RequireAdmin
 
 ### Privacy Tweaks ###
-DisableTelemetry                # EnableTelemetry
+# DisableTelemetry              EnableTelemetry
 DisableWiFiSense                # EnableWiFiSense
-# DisableSmartScreen            # EnableSmartScreen
-# DisableWebSearch              # EnableWebSearch
+DisableSmartScreen            # EnableSmartScreen
+DisableWebSearch              # EnableWebSearch
 DisableAppSuggestions           # EnableAppSuggestions
 DisableActivityHistory          # EnableActivityHistory
 DisableBackgroundApps           # EnableBackgroundApps
@@ -24,9 +24,9 @@ DisableTailoredExperiences      # EnableTailoredExperiences
 DisableAdvertisingID            # EnableAdvertisingID
 DisableWebLangList              # EnableWebLangList
 DisableCortana                  # EnableCortana
-# DisableBiometrics             # EnableBiometrics
-# DisableCamera                 # EnableCamera
-# DisableMicrophone             # EnableMicrophone
+DisableBiometrics             # EnableBiometrics
+DisableCamera                 # EnableCamera
+DisableMicrophone             # EnableMicrophone
 DisableErrorReporting           # EnableErrorReporting
 # SetP2PUpdateLocal             # SetP2PUpdateInternet          # SetP2PUpdateDisable
 DisableDiagTrack                # EnableDiagTrack
@@ -35,16 +35,16 @@ DisableWAPPush                  # EnableWAPPush
 # DisableRecentFiles            # EnableRecentFiles
 
 ### Security Tweaks ###
-# SetUACLow                     # SetUACHigh
-# EnableSharingMappedDrives     # DisableSharingMappedDrives
+# SetUACLow                     SetUACHigh
+# EnableSharingMappedDrives     DisableSharingMappedDrives
 DisableAdminShares              # EnableAdminShares
-# DisableFirewall               # EnableFirewall
+# DisableFirewall               EnableFirewall
 # HideDefenderTrayIcon          # ShowDefenderTrayIcon
-# DisableDefender               # EnableDefender
-# DisableDefenderCloud          # EnableDefenderCloud
+# DisableDefender               EnableDefender
+# DisableDefenderCloud          EnableDefenderCloud
 # EnableCtrldFolderAccess       # DisableCtrldFolderAccess
-# EnableCIMemoryIntegrity       # DisableCIMemoryIntegrity
-# EnableDefenderAppGuard        # DisableDefenderAppGuard
+EnableCIMemoryIntegrity       # DisableCIMemoryIntegrity
+EnableDefenderAppGuard        # DisableDefenderAppGuard
 HideAccountProtectionWarn       # ShowAccountProtectionWarn
 # DisableDownloadBlocking       # EnableDownloadBlocking
 DisableScriptHost               # EnableScriptHost
@@ -59,21 +59,21 @@ SetDEPOptOut                    # SetDEPOptIn
 SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 # SetUnknownNetworksPrivate     # SetUnknownNetworksPublic
 # DisableNetDevicesAutoInst     # EnableNetDevicesAutoInst
-# DisableHomeGroups             # EnableHomeGroups
-# DisableSMB1                   # EnableSMB1
-# DisableSMBServer              # EnableSMBServer
-# DisableNetBIOS                # EnableNetBIOS
-# DisableLLMNR                  # EnableLLMNR
-# DisableLLDP                   # EnableLLDP
-# DisableLLTD                   # EnableLLTD
-# DisableMSNetClient            # EnableMSNetClient
-# DisableQoS                    # EnableQoS
+DisableHomeGroups             # EnableHomeGroups
+DisableSMB1                   # EnableSMB1
+DisableSMBServer              # EnableSMBServer
+DisableNetBIOS                # EnableNetBIOS
+DisableLLMNR                  # EnableLLMNR
+DisableLLDP                   # EnableLLDP
+DisableLLTD                   # EnableLLTD
+DisableMSNetClient            # EnableMSNetClient
+DisableQoS                    # EnableQoS
 # DisableIPv4                   # EnableIPv4
 # DisableIPv6                   # EnableIPv6
 # DisableNCSIProbe              # EnableNCSIProbe
-# DisableConnectionSharing      # EnableConnectionSharing
+DisableConnectionSharing      # EnableConnectionSharing
 DisableRemoteAssistance         # EnableRemoteAssistance
-# EnableRemoteDesktop           # DisableRemoteDesktop
+EnableRemoteDesktop           # DisableRemoteDesktop
 
 ### Service Tweaks ###
 # DisableUpdateMSRT             # EnableUpdateMSRT
@@ -145,7 +145,7 @@ DisableF1HelpKey                # EnableF1HelpKey
 # ShowExplorerTitleFullPath     # HideExplorerTitleFullPath
 ShowKnownExtensions             # HideKnownExtensions
 ShowHiddenFiles                 # HideHiddenFiles
-# ShowSuperHiddenFiles          # HideSuperHiddenFiles
+ShowSuperHiddenFiles          # HideSuperHiddenFiles
 # ShowEmptyDrives               # HideEmptyDrives
 # ShowFolderMergeConflicts      # HideFolderMergeConflicts
 EnableNavPaneExpand             # DisableNavPaneExpand
@@ -191,7 +191,7 @@ DisableOneDrive                 # EnableOneDrive
 UninstallOneDrive               # InstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
-# UninstallWindowsStore         # InstallWindowsStore
+UninstallWindowsStore         # InstallWindowsStore
 DisableXboxFeatures             # EnableXboxFeatures
 # DisableFullscreenOptims       # EnableFullscreenOptims
 DisableAdobeFlash               # EnableAdobeFlash
@@ -200,7 +200,7 @@ DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
 DisableIEFirstRun               # EnableIEFirstRun
 DisableFirstLogonAnimation      # EnableFirstLogonAnimation
 DisableMediaSharing             # EnableMediaSharing
-# EnableDeveloperMode           # DisableDeveloperMode
+# EnableDeveloperMode           DisableDeveloperMode
 # UninstallMediaPlayer          # InstallMediaPlayer
 # UninstallInternetExplorer     # InstallInternetExplorer
 # UninstallWorkFolders          # InstallWorkFolders
@@ -220,15 +220,15 @@ RemoveFaxPrinter                # AddFaxPrinter
 ### Server Specific Tweaks ###
 # HideServerManagerOnLogin      # ShowServerManagerOnLogin
 # DisableShutdownTracker        # EnableShutdownTracker
-# DisablePasswordPolicy         # EnablePasswordPolicy
-# DisableCtrlAltDelLogin        # EnableCtrlAltDelLogin
-# DisableIEEnhancedSecurity     # EnableIEEnhancedSecurity
-# EnableAudio                   # DisableAudio
+# DisablePasswordPolicy         EnablePasswordPolicy
+# DisableCtrlAltDelLogin        EnableCtrlAltDelLogin
+DisableIEEnhancedSecurity     # EnableIEEnhancedSecurity
+# EnableAudio                   DisableAudio
 
 ### Unpinning ###
 # UnpinStartMenuTiles
 # UnpinTaskbarIcons
 
 ### Auxiliary Functions ###
-WaitForKey
-Restart
+# WaitForKey
+# Restart
